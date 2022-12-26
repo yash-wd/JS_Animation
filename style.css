@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: #0000ff; */
+  background-color: #330b3c;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 110px;
+  border-bottom: 1px solid #ffffff15;
+  background-color: #000000;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 24px;
+}
+.banner {
+  text-align: center;
+  padding-top: 65px;
+  color: #fff;
+}
+.banner-text {
+  max-width: 550px;
+  margin: 0 auto;
+}
+.banner h1 {
+  font-size: 48px;
+}
+.banner ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+}
+.banner ul li {
+  list-style: none;
+  margin: 20px 20px 0;
+  position: relative;
+}
+.mobile {
+  position: relative;
+}
+.mobile-img img {
+  width: 800px;
+  margin-top: 100px;
+  border-radius: 50%;
+}
+.circle {
+  width: 800px;
+  height: 800px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  animation: circle 60s linear 0s infinite;
+}
+@keyframes circle {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.icon {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  padding: 28px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: #292c45;
+  transition: all ease 0.5s;
+}
+.icon img {
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  padding: 0 10px 15px 0;
+}
+.icon:hover {
+  border-color: #3951e8;
+  background-color: #3951e8;
+  box-shadow: 0 4px 94px #384fde;
+}
+.icon:nth-child(1) {
+  top: -40px;
+  left: 41%;
+}
+.icon:nth-child(2) {
+  top: 70px;
+  right: 50px;
+}
+.icon:nth-child(3) {
+  top: 330px;
+  right: -50px;
+}
+.icon:nth-child(4) {
+  bottom: 60px;
+  right: 60px;
+}
+.icon:nth-child(5) {
+  bottom: -40px;
+  right: 41%;
+}
+.icon:nth-child(6) {
+  bottom: 70px;
+  left: 45px;
+}
+.icon:nth-child(7) {
+  bottom: 575px;
+  left: 45px;
+}
+.icon:nth-child(8) {
+  bottom: 328px;
+  left: -55px;
+}
